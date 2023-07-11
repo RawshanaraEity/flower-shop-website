@@ -25,7 +25,6 @@ body {
     justify-content: space-between;
     align-items: center;
     background: rgba(229, 84, 115, 0.10);
-    margin-bottom: 200px;
 }
 
 .banner-content {
@@ -35,7 +34,7 @@ body {
 
 .banner-title {
     color: #272727;
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 700;
     margin-bottom: 30px;
 }
@@ -55,21 +54,21 @@ body {
 
 }
 
-/* main section css */
+/* hot section css */
 
 .hot {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);
+    background: rgba(229, 84, 115, 0.05);
 }
 
 .hot-content {
     text-align: center;
     max-width: 600px;
     padding: 200px 0px 200px 150px;
-   
+
 }
 
 .hot-title {
@@ -78,7 +77,8 @@ background: rgba(229, 84, 115, 0.05);
     font-weight: 700;
     margin-bottom: 30px;
 }
-.hot-title span{
+
+.hot-title span {
     color: #E55473;
 }
 
@@ -93,4 +93,33 @@ background: rgba(229, 84, 115, 0.05);
     width: 300px;
     height: 400px;
     padding-right: 200px;
+}
+
+/* insta section css */
+
+.insta {
+    padding: 100px 200px;
+}
+
+.insta-content {
+    text-align: center;
+}
+
+.insta-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.insta-description {
+    color: #27272799;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.insta-img img{
+    width: 200px;
+    height: 240px;
+    margin-right: 10px;
 }
