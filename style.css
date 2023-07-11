@@ -25,6 +25,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background: rgba(229, 84, 115, 0.10);
+    margin-bottom: 200px;
 }
 
 .banner-content {
@@ -51,5 +52,45 @@ body {
     width: 500px;
     height: 800px;
     padding: 50px 30px 0px 0px;
-    
+
+}
+
+/* main section css */
+
+.hot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-content {
+    text-align: center;
+    max-width: 600px;
+    padding: 200px 0px 200px 150px;
+   
+}
+
+.hot-title {
+    color: #272727;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.hot-title span{
+    color: #E55473;
+}
+
+.hot-description {
+    color: #27272799;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.hot-img img {
+    width: 300px;
+    height: 400px;
+    padding-right: 200px;
 }
