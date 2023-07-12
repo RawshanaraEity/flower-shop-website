@@ -54,6 +54,68 @@ body {
 
 }
 
+/* feature section css */
+.feature {
+    padding: 100px 200px 150px;
+}
+
+.feature-content {
+    text-align: center;
+}
+
+.feature-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.feature-description {
+    color: #27272799;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.feature-img {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.feature-img .img {
+    height: 330px;
+    width: 275px;
+    border-radius: 300px 300px 0px 0px;
+
+}
+
+.feature-img img {
+    height: 264px;
+    width: 200px;
+    padding: 65px 38px 30px ;
+}
+
+.feature-img-1 {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.feature-img-2 {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.feature-img-3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.img-info {
+    color: #272727;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+
 /* hot section css */
 
 .hot {
@@ -78,7 +140,8 @@ body {
     margin-bottom: 30px;
 }
 
-.hot-title span {
+.hot-title span,
+.foot-title span {
     color: #E55473;
 }
 
@@ -118,8 +181,84 @@ body {
     font-weight: 400;
     margin-bottom: 30px;
 }
-.insta-img img{
-    width: 200px;
+
+.insta-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.insta-img img {
+    width: 205px;
     height: 240px;
-    margin-right: 10px;
+
+}
+
+/* deals section css */
+.deals {
+    height: 400px;
+    margin: 0px 200px 100px 200px;
+
+}
+
+.deals-content {
+    background-image: url('image/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.deals-title {
+    color: #272727;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.deals-info {
+    color: #27272799;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.deals-content input {
+    background: #FFF;
+    border: none;
+    border-radius: 8px;
+    padding: 22px 150px 22px 22px;
+    margin: 10px;
+}
+
+/* footer section css */
+
+.foot {
+    background: #111010;
+    color: #FFF;
+
+}
+
+.foot-content {
+    align-items: center;
+    text-align: center;
+    padding: 130px 300px;
+}
+
+.foot-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.foot-info {
+    color: #ffffffe6;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+small {
+    color: #ffffff66;
+    font-size: 14px;
+    font-weight: 400;
 }
