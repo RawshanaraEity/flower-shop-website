@@ -187,7 +187,7 @@ ul li a{
 /* insta section css */
 
 .insta {
-    padding: 100px 200px;
+    padding: 100px 200px 0px;
 }
 
 .insta-content {
@@ -221,16 +221,16 @@ ul li a{
 
 /* deals section css */
 .deals {
-    height: 400px;
-    margin: 0px 200px 100px 200px;
+    width: 868px;
+    margin: auto;
 
 }
 
 .deals-content {
     background-image: url('image/Rectangle\ 9.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
+    background-size: contain;
+    background-position: center center;
     padding: 100px 0;
     text-align: center;
 }
@@ -239,22 +239,26 @@ ul li a{
     color: #272727;
     font-size: 35px;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .deals-info {
     color: #27272799;
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 .deals-content input {
     background: #FFF;
     border: none;
     border-radius: 8px;
-    padding: 22px 150px 22px 22px;
-    margin: 10px;
+    padding: 18px 180px 18px 22px;
+    margin-right: 10px;
+}
+.deals-content .btn-primary-1{
+    font-size: 14px;
+    padding: 18px 40px;
 }
 
 /* footer section css */
