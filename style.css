@@ -190,6 +190,7 @@ ul li a{
 
 .insta {
     padding: 100px 200px 0px;
+    margin-bottom: 100px;
 }
 
 .insta-content {
@@ -219,6 +220,51 @@ ul li a{
     width: 205px;
     height: 240px;
 
+}
+
+/* payment section css */
+.payment{
+    height: 400px;
+    background-color: #f0b8b8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.payment-content{
+    margin-left: 100px;
+}
+.payment-title{
+    color: #272727;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.payment-info{
+    color: #27272799;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.service{
+    margin-right: 20px;
+}
+.service-title{
+    color: #272727;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.service ul{
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.service ul li{
+    margin-bottom: 18px;
+    margin-left: 20px;
 }
 
 /* deals section css */
